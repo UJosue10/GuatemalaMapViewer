@@ -21,7 +21,7 @@ class GuateMap extends Component {
     }
 
     componentDidMount() {
-        fetch("/guatemala.json")
+        fetch("https://raw.githubusercontent.com/UJosue10/GuatemalaMapViewer/develop/public/guatemala.json")
             .then(response => {
                 if (response.status !== 200) {
                     console.log(`There was a problem: ${response.status}`)

@@ -2,7 +2,7 @@
   "name": "guatemala-map-viewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://UJosue10/github.io/GuatemalaMapViewer",
+  "homepage": "https://ujosue10.github.io/GuatemalaMapViewer",
   "dependencies": {
     "d3-geo": "^1.6.4",
     "gh-pages": "^1.0.0",
