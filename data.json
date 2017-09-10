@@ -1,0 +1,12 @@
+{
+    "Guatemala": {
+        "id": "001",
+        "video": "https://www.youtube.com/embed/RqD3YRwBDqI?rel=0",
+        "description": "El Departamento de Guatemala es un departamento al centro de la República de Guatemala. Su capital es la Ciudad de Guatemala y su superficie es de 2.126 km²."
+    },
+    "Petén": {
+        "id": "002",
+        "video": "https://www.youtube.com/embed/_XW96de1mVA?rel=0",
+        "description": "El Departamento de Guatemala es un departamento al centro de la República de Guatemala. Su capital es la Ciudad de Guatemala y su superficie es de 2.126 km²."
+    }
+}
