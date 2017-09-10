@@ -37,7 +37,7 @@ class GuateMap extends Component {
 
     renderDepartments = () => {
         return this.state.guatemalanData.map((department) => (
-            <Deparment department={department} projection={this.projection} />
+            <Deparment department={department} projection={this.projection} onClick={this.props.onClickDepartment} />
         ))
     }
 

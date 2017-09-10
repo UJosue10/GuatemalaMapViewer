@@ -29,7 +29,7 @@ const colors = {
 class Department extends Component {
 
     handleDepartmentClick = () => {
-        alert(`You've clicked ${this.props.department.properties.Name}`);
+        this.props.onClick(this.props.department)
     }
 
     render() {
