@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('/data.json')
+    fetch('https://raw.githubusercontent.com/UJosue10/GuatemalaMapViewer/develop/public/data.json')
       .then(response => {
         if (response.status !== 200) {
           console.log(`There was a problem: ${response.status}`)
