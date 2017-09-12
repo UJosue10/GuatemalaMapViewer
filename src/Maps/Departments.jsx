@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
 import { geoPath } from "d3-geo";
+import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 
 const colors = {
-    '001': '#FFA726',
-    '002': '#9CCC65',
-    '003': '#26A69A',
-    '004': '#5C6BC0',
-    '005': '#673AB7',
-    '006': '#E64A19',
-    '007': '#76FF03',
-    '008': '#9E9E9E',
-    '009': '#B0BEC5',
-    '010': '#80D8FF',
-    '011': '#536DFE',
-    '012': '#651FFF',
-    '013': '#82B1FF',
-    '014': '#448AFF',
-    '015': '#00B0FF',
-    '016': '#FFAB00',
-    '017': '#9C27B0',
-    '018': '#E91E63',
-    '019': '#f44336',
-    '020': '#f44336',
-    '021': '#c62828',
-    '022': '#4E342E',
+    '001': 'rgba(75,119,190, 0.4)',
+    '002': 'rgba(75,119,190, 0.4)',
+    '003': 'rgba(75,119,190, 0.4)',
+    '004': 'rgba(75,119,190, 0.4)',
+    '005': 'rgba(75,119,190, 0.4)',
+    '006': 'rgba(75,119,190, 0.4)',
+    '007': 'rgba(75,119,190, 0.4)',
+    '008': 'rgba(75,119,190, 0.4)',
+    '009': 'rgba(75,119,190, 0.4)',
+    '010': 'rgba(75,119,190, 0.4)',
+    '011': 'rgba(75,119,190, 0.4)',
+    '012': 'rgba(75,119,190, 0.4)',
+    '013': 'rgba(75,119,190, 0.4)',
+    '014': 'rgba(75,119,190, 0.4)',
+    '015': 'rgba(75,119,190, 0.4)',
+    '016': 'rgba(75,119,190, 0.4)',
+    '017': 'rgba(75,119,190, 0.4)',
+    '018': 'rgba(75,119,190, 0.4)',
+    '019': 'rgba(75,119,190, 0.4)',
+    '020': 'rgba(75,119,190, 0.4)',
+    '021': 'rgba(75,119,190, 0.4)',
+    '022': 'rgba(75,119,190, 0.4)',
 }
 
 class Department extends Component {
@@ -33,16 +34,23 @@ class Department extends Component {
     }
 
     render() {
+
+        const tooltip = (
+            <Tooltip id="tooltip">{this.props.department.properties.Name}</Tooltip>
+        );
+
         return (
-            <path
-                key={`dp-${this.props.department.id}`}
-                d={geoPath().projection(this.props.projection())(this.props.department)}
-                className="department"
-                fill={colors[this.props.department.id] || '#8BC34A'}
-                stroke="#FFFFFF"
-                strokeWidth={0.5}
-                onClick={this.handleDepartmentClick}
-            />
+            <OverlayTrigger placement="left" overlay={tooltip}>
+                <path
+                    key={`dp-${this.props.department.id}`}
+                    d={geoPath().projection(this.props.projection())(this.props.department)}
+                    className="department"
+                    fill={colors[this.props.department.id] || 'rgba(75,119,190, 0.4)'}
+                    stroke="#111111"
+                    strokeWidth={0.5}
+                    onClick={this.handleDepartmentClick}
+                />
+            </OverlayTrigger>
         );
     }
 }

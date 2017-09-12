@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { geoMercator } from "d3-geo";
 import { feature } from "topojson-client";
+import { AutoSizer } from 'react-virtualized';
 import Deparment from './Departments';
 
 class GuateMap extends Component {
@@ -37,17 +38,21 @@ class GuateMap extends Component {
 
     renderDepartments = () => {
         return this.state.guatemalanData.map((department) => (
-            <Deparment department={department} projection={this.projection} onClick={this.props.onClickDepartment} />
+            <Deparment key={department.id} department={department} projection={this.projection} onClick={this.props.onClickDepartment} />
         ))
     }
 
     render() {
         return (
-            <svg width={960} height={500} viewBox="0 0 960 500">
-                <g className="departments">
-                   {this.renderDepartments()}
-                </g>
-            </svg>
+            <AutoSizer disableHeight>
+                {({ width }) => (
+                    <svg width={width} height={(width*500)/960} className="map-guate" viewBox="0 0 960 500">
+                        <g className="departments">
+                            {this.renderDepartments()}
+                        </g>
+                    </svg>
+                )}
+            </AutoSizer>
         );
     }
 }

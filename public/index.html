@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -20,13 +21,64 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <style>
+      .modal{
+        z-index: 10002;
+      }
+      .department:hover {
+        cursor: pointer;
+        fill: rgba(75, 119, 190, 0.84);
+      }
+      .title-modal {
+        font-weight: 5000;
+        color: #222222;
+        font-size: large;
+        margin-bottom: 5px;
+      }
+      .description-modal {
+        color: #222222;
+        font-size: small;
+        padding: 10px;
+        max-height: 200px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        word-wrap: break-word;
+      }
+      
+    </style>
     <title>React App</title>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
+    <!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">Guatemala <span>by II Publicidad Vespertina A</span></a></div>
+			</header>
+      
+      <!-- Banner -->
+		<!--
+			To use a video as your background, set data-video to the name of your video without
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
+			<section id="banner" data-video="images/banner">
+				<div class="inner">
+					<h1>Guatemala</h1>
+					<p>Una nueva experiencia para conocer tu país<br />
+				    ¿estás listo?</p>
+					<a href="#two" class="button special scrolly">¡Vamos!</a>
+        </div>
+      </section>
+      
+      <!-- Two -->
+			<section id="two" class="wrapper style3">
+        <div class="inner">
+            <div id="root"></div>
+				</div>
+			</section>
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -37,5 +89,24 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- Footer -->
+			<footer id="footer" class="wrapper">
+          <div class="inner">
+            <div class="copyright">
+              &copy; 2017 | Developed by <a href="https://www.instagram.com/ujosue10">Josue</a>.<br>
+              Para uso únicamente académico
+            </div>
+          </div>
+        </footer>
+
+    <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
   </body>
 </html>

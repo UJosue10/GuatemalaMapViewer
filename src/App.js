@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
 import './App.css';
 import GuateMap from './Maps/GuateMap';
 import DepartmentModal from './Modal/DepartmentModal';
@@ -49,11 +48,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Publi A</h2>
+        <div style={{width: '100%'}}>
+          <GuateMap onClickDepartment={this.onClickDepartment} />
         </div>
-        <GuateMap onClickDepartment={this.onClickDepartment} />
         <div>
           {
             this.state.showModal && (
