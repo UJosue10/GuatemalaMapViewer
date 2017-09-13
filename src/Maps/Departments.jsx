@@ -46,7 +46,7 @@ class Department extends Component {
                     d={geoPath().projection(this.props.projection())(this.props.department)}
                     className="department"
                     fill={colors[this.props.department.id] || 'rgba(75,119,190, 0.4)'}
-                    stroke="#111111"
+                    stroke="#E9E9E9"
                     strokeWidth={0.5}
                     onClick={this.handleDepartmentClick}
                 />

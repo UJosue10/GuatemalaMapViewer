@@ -11,13 +11,13 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/guatemala.ico">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      Unlike "/guatemala.ico" or "guatemala.ico", "%PUBLIC_URL%/guatemala.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
@@ -44,9 +44,24 @@
         overflow-x: hidden;
         word-wrap: break-word;
       }
-      
+      .button-follow {
+        background-color: transparent;
+        color: #E9E9E9 !important;
+        border: 2px solid #eaeaea;
+      }
+      .button-follow:hover {
+        color: #333333 !important;
+      }
+      .title-map{
+        color: #E9E9E9;
+        font-weight: 500;
+        font-size: 3em;
+      }
+      .wrapper{
+        text-align: center;
+      }
     </style>
-    <title>React App</title>
+    <title>Guatemala</title>
   </head>
   <body>
     <noscript>
@@ -54,7 +69,7 @@
     </noscript>
     <!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">Guatemala <span>by II Publicidad Vespertina A</span></a></div>
+				<div class="logo"><a href="#banner" class="scrolly">Guatemala <span>by II Publicidad Vespertina A</span></a></div>
 			</header>
       
       <!-- Banner -->
@@ -68,13 +83,18 @@
 					<h1>Guatemala</h1>
 					<p>Una nueva experiencia para conocer tu país<br />
 				    ¿estás listo?</p>
-					<a href="#two" class="button special scrolly">¡Vamos!</a>
+					<a href="#two" class="button scrolly fit button-follow">¡Vamos!</a>
         </div>
       </section>
       
       <!-- Two -->
-			<section id="two" class="wrapper style3">
-        <div class="inner">
+			<section  class="wrapper style3">
+        <div id="two" class="inner">
+            <header>
+								<div class="title-map">
+                    Descubre Guatemala
+                </div>
+						</header>
             <div id="root"></div>
 				</div>
 			</section>
