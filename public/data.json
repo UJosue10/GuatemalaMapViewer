@@ -1,12 +1,27 @@
 {
     "Guatemala": {
         "id": "001",
-        "video": "https://www.youtube.com/embed/GzP713bQzt4",
-        "description": "El Departamento de Guatemala es un departamento al centro de la República de Guatemala. Su capital es la Ciudad de Guatemala y su superficie es de 2.126 km²."
+        "video": "https://www.youtube.com/embed/1581rMq4sGc",
+        "description": "El departamento de Guatemala es la ciudad capital de Guatemala, tiene 2937307 habitantes, tiene una extensión territorial de 692 km²."
     },
     "Petén": {
         "id": "002",
-        "video": "https://www.youtube.com/embed/sSV4NFaxrro",
-        "description": "El Departamento de Guatemala es un departamento al centro de la República de Guatemala. Su capital es la Ciudad de Guatemala y su superficie es de 2.126 km²."
+        "video": "https://www.youtube.com/embed/9yXpAC0trao",
+        "description": ""
+    },
+    "Chimaltenango": {
+        "id": "003",
+        "video": "https://www.youtube.com/embed/JCI1AusXiV8",
+        "description": "Chimaltenango, muralla de los escudos, de hermosos trajes rojos con perfectos bordados del cosmos, la tierra y el inframundo; tierra que habla el kaqchiquel y nos llena de sus costumbres y tradiciones."
+    },
+    "Totonicapán": {
+        "id": "004",
+        "video": "https://www.youtube.com/embed/4WVjs3-6JGg",
+        "description": "Colinda al norte con el departamento de Huehuetenango al este con el del Quiché al sur con el de Sololá al oeste con el de Quetzaltenango. Por decreto de la Asamblea Constituyente del 4 de noviembre de 1825, Totonicapán se elevó a la categoría de departamento."
+    },
+    "Escuintla": {
+        "id": "005",
+        "video": "https://www.youtube.com/embed/ZJReVPQ_sfo",
+        "description": "El departamento se encuentra propiamente sobre la cordillera eruptiva del país, ofreciendo en consecuencia un aspecto variado en su topografía."
     }
 }
