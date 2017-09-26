@@ -23,5 +23,10 @@
         "id": "005",
         "video": "https://www.youtube.com/embed/ZJReVPQ_sfo",
         "description": "El departamento se encuentra propiamente sobre la cordillera eruptiva del país, ofreciendo en consecuencia un aspecto variado en su topografía."
+    },
+    "Jalapa": {
+        "id": "006",
+        "video": "https://www.youtube.com/embed/pd4KAt2F77Q",
+        "description": "El departamento fue creado por decreto número 107 del 24 noviembre 1873 .Tiene una extensión de : 2,063 km2 y cuenta con 235,192 habitantes."
     }
 }
