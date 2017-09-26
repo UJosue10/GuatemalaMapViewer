@@ -48,5 +48,10 @@
         "id": "010",
         "video": "https://www.youtube.com/embed/f5sn9ywfy9M",
         "description": "Soy Sacatepéquez mi extensión territorial es de 465 km, mi clima es templado y mis idiomas son el español y el kaqchikel."
+    },
+    "Izabal": {
+        "id": "011",
+        "video": "https://www.youtube.com/embed/Nrj0npyLDXo",
+        "description": "Izabal, tierras guatemaltecas en donde la belleza de la naturaleza se une a la alegr[ia de su gente, un lugar para conocer."
     }
 }
