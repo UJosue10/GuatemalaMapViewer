@@ -53,5 +53,15 @@
         "id": "011",
         "video": "https://www.youtube.com/embed/Nrj0npyLDXo",
         "description": "Izabal, tierras guatemaltecas en donde la belleza de la naturaleza se une a la alegr[ia de su gente, un lugar para conocer."
+    },
+    "El Progreso": {
+        "id": "012",
+        "video": "https://www.youtube.com/embed/F4kl91RjVN8",
+        "description": "Mi cabecera es Guastatoya, tengo ocho municipios y un clima calido, mi ubicacion es accesible, me encuentro a 74 kilometros de la capital."
+    },
+    "San Marcos": {
+        "id": "013",
+        "video": "https://www.youtube.com/embed/8nEXB-vw_4Y",
+        "description": "Mi cabecera es Guastatoya, tengo ocho municipios y un clima calido, mi ubicacion es accesible, me encuentro a 74 kilometros de la capital."
     }
 }
