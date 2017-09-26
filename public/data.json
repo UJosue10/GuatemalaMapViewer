@@ -33,5 +33,20 @@
         "id": "007",
         "video": "https://www.youtube.com/embed/74hjWPjgxgM",
         "description": "Baja Verapaz es un departamento con muchas riquezas culturales. Antiguamente llamado \"Tucurutan\" que significa tierra de guerra, es un departamento de gran importancia y con una flora fascinante. Video por Valeria Paredes."
+    },
+    "Alta Verapaz": {
+        "id": "008",
+        "video": "https://www.youtube.com/embed/fKS9vlLmVkY",
+        "description": "Está situado al norte del país, tiene una extensión territorial de 8686 kilómetros cuadrados y su población es de aproximadamente 1,219,585 habitantes. Cuenta con 17 municipios y su cabecera departamental es Cobán."
+    },
+    "Jutiapa": {
+        "id": "009",
+        "video": "https://www.youtube.com/embed/Sdn1km_oL4o",
+        "description": "Jutiapa, la cuna del sol, ubicada a 118 km de la ciudad capital. Cuenta con 17 municipios y más de 489,085 habitantes."
+    },
+    "Sacatepéquez": {
+        "id": "010",
+        "video": "https://www.youtube.com/embed/f5sn9ywfy9M",
+        "description": "Soy Sacatepéquez mi extensión territorial es de 465 km, mi clima es templado y mis idiomas son el español y el kaqchikel."
     }
 }
