@@ -52,7 +52,7 @@
     "Izabal": {
         "id": "011",
         "video": "https://www.youtube.com/embed/Nrj0npyLDXo",
-        "description": "Izabal, tierras guatemaltecas en donde la belleza de la naturaleza se une a la alegr[ia de su gente, un lugar para conocer."
+        "description": "Izabal, tierras guatemaltecas en donde la belleza de la naturaleza se une a la alegría de su gente, un lugar para conocer."
     },
     "El Progreso": {
         "id": "012",
@@ -63,5 +63,20 @@
         "id": "013",
         "video": "https://www.youtube.com/embed/8nEXB-vw_4Y",
         "description": "Soy San Marcos, formo parte del rompecabezas Maya y poseo una extencion de 3.791 kilómetros cuadrados, un clima entre frio y templado y el volcan mas alto de Centro America."
+    },
+    "Sololá": {
+        "id": "014",
+        "video": "https://www.youtube.com/embed/n3aXmPOtbHY",
+        "description": "El Departamento de Sololá se encuentra situado en la región Sur Occidental de Guatemala. Tiene una extensión territorial de 1,060 kilómetros cuadrados y su población es de aproximadamente  450,471 personas."
+    },
+    "Zacapa": {
+        "id": "015",
+        "video": "https://www.youtube.com/embed/ucQrzMsgDz4",
+        "description": "Zacapa significa sobre el río del zacate o de la yerba, derivado de las voces mexicanas (zacatl). Su lengua materna es la Chortí. Fabrican quesos, puros, sombreros de palma, y trapiches de panela."
+    },
+    "Chiquimula": {
+        "id": "016",
+        "video": "https://www.youtube.com/embed/ucQrzMsgDz4",
+        "description": "La etimología de Chiquimula es colectivo de Chiquimolín, nombre mexicano del jilguero. La fiesta titular, Nuestra Señora del Tránsito, se celebra del 12 al 18 de agosto. El clima por lo general es cálido; el suelo produce magnífico tabaco."
     }
 }
